@@ -1,0 +1,38 @@
+* {
+    font-family: $font-family-default;
+    color: $text-color;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-weight: $font-weight-l;
+    color: $color-primary;
+    margin-left: 10px;
+}
+
+h4 {
+    font-weight: $font-weight-default;
+    color: $text-color;
+}
+
+p {
+    line-height: 1.45em;
+}
+
+a {
+    text-decoration: none;
+    &.link {
+        color: $button-default;
+        font-weight: $font-weight-l;
+    }
+}
+
+.blockquote {
+    font-size: 1.5em;
+    font-weight: $font-weight-default;
+    font-style: italic;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-left: 8px solid $color-primary;
+    border-radius: $border-radius;
+}

@@ -1,0 +1,33 @@
+.nav {
+    padding-left: 0;
+    flex-basis: $flex-basis-wide;
+    @include flex($dir: column);
+
+    &-link {
+        text-align: center;
+        border-radius: $border-radius;
+        padding: 10px 0;
+        display: block;
+        width: 100%;
+        transition:
+            background-color .2s ease-in-out,
+            color .2s ease-in-out;
+
+        &:hover {
+            color: $white;
+            background-color: $color-primary;
+        }
+    }
+}
+
+@media (min-width: $break-m) {
+    .nav {
+        @include flex(
+        $dir: row, 
+        $just: flex-end, 
+        $align: center);
+        &-link {
+            flex-basis: 100px;
+        }
+    }
+}

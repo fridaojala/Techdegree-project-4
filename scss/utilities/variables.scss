@@ -1,0 +1,40 @@
+// Color variables
+$white: #fff;
+$color-primary: #58e1c1;
+$text-color: #777;
+$link-color: #51ddfc;
+$border-color: #ccc;
+
+$button-default: #51ddfc;
+$button-error: #e4757a;
+$button-info: #927bc1;
+$button-success: #63cc82;
+$button-warning: #fd7856;
+
+
+// Media queries variables
+$break-m: 768px;
+
+
+// Typography variables
+$font-family-default: 'Lato', sans-serif;
+$font-weight-l: 700;
+$font-weight-default: 300;
+
+
+// Border-radius variables
+$border-radius: 5px;
+
+
+// Flex-basis variable
+$flex-basis-wide: 100%;
+
+
+// Maps
+$btn-colors: (
+    'default': #51ddfc,
+    'error': #e4757a,
+    'info': #927bc1,
+    'success': #63cc82,
+    'warning': #fd7856,
+);

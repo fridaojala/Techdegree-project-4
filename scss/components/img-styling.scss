@@ -1,0 +1,26 @@
+%img-properties {
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+.img-avatar {
+    @include centered;
+    @extend %img-properties;
+    max-height: 100%;
+}
+
+.img-frame {
+    @include centered;
+    @extend %img-properties;
+    padding: 13px;
+    border: 1px solid $border-color;
+}
+
+.img-logo {
+    @include centered;
+
+    @media (min-width: $break-m) {
+        margin-left: initial;
+        margin-right: initial;
+    }
+}
